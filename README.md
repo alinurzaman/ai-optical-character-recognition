@@ -9,7 +9,7 @@ Anggota Kelompok : (IF-2)
 - Faiza Istiani (10110083)
 
 Cara menggunakan aplikasi:
-- Klik Load (A-Z)
+- Klik Load (Huruf yang tersimpan dari A - Z)
 - Klik Begin Training
 - Gambar di Draw Area
 - Klik Recognize
