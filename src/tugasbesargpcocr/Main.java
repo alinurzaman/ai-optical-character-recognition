@@ -278,7 +278,8 @@ public class Main extends javax.swing.JFrame implements Runnable {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    //Load file
     private void loadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadActionPerformed
         // TODO add your handling code here:
         try {
@@ -378,7 +379,8 @@ public class Main extends javax.swing.JFrame implements Runnable {
 	this.drawarea.clear();
 	this.sample.repaint();
     }//GEN-LAST:event_addActionPerformed
-
+    
+    //Clear draw area
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
         
         this.drawarea.clear();
@@ -401,7 +403,8 @@ public class Main extends javax.swing.JFrame implements Runnable {
 	this.sample.repaint();
 	this.drawarea.clear();
     }//GEN-LAST:event_lettersValueChanged
-
+    
+    //Recognize image
     private void recognizeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_recognizeActionPerformed
         // TODO add your handling code here:
         if (this.som == null) {
